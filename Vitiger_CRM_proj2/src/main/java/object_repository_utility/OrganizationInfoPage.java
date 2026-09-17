@@ -1,6 +1,8 @@
 package object_repository_utility;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import generic_webdriverUtility.WebDriverUtility;
@@ -17,7 +19,12 @@ public class OrganizationInfoPage
 	}
 	
 	
-	
+	@FindBy(xpath = "//img[@alt='Create Organization...']")
+	private WebElement plusBtn;
+
+	public WebElement getPlusBtn() {
+		return plusBtn;
+	}
 	
 
 }
