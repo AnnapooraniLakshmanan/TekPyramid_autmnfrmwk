@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-17T13:05:15 IST" name="Default suite" finished-at="2026-09-17T13:06:14 IST" duration-ms="58684">
+    <groups>
+      <group name="regression">
+        <method signature="CreateContactWithSupportDateTest.createContactWithSupportDateTest()[pri:0, instance:com.vitiger_crm.contacttest.CreateContactWithSupportDateTest@dd05255]" name="createContactWithSupportDateTest" class="com.vitiger_crm.contacttest.CreateContactWithSupportDateTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2026-09-17T13:05:15 IST" name="Default test" finished-at="2026-09-17T13:06:14 IST" duration-ms="58684">
+      <class name="com.vitiger_crm.contacttest.CreateContactWithSupportDateTest">
+        <test-method is-config="true" signature="databaseConnectivity()[pri:0, instance:com.vitiger_crm.contacttest.CreateContactWithSupportDateTest@dd05255]" started-at="2026-09-17T13:05:14 IST" name="databaseConnectivity" finished-at="2026-09-17T13:05:15 IST" duration-ms="744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- databaseConnectivity -->
+        <test-method is-config="true" signature="browserLaunching()[pri:0, instance:com.vitiger_crm.contacttest.CreateContactWithSupportDateTest@dd05255]" started-at="2026-09-17T13:05:15 IST" name="browserLaunching" finished-at="2026-09-17T13:05:29 IST" duration-ms="14013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunching -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.vitiger_crm.contacttest.CreateContactWithSupportDateTest@dd05255]" started-at="2026-09-17T13:05:29 IST" name="loginToApp" finished-at="2026-09-17T13:05:57 IST" duration-ms="28596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="createContactWithSupportDateTest()[pri:0, instance:com.vitiger_crm.contacttest.CreateContactWithSupportDateTest@dd05255]" started-at="2026-09-17T13:05:57 IST" name="createContactWithSupportDateTest" finished-at="2026-09-17T13:06:04 IST" duration-ms="6876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithSupportDateTest -->
+        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:com.vitiger_crm.contacttest.CreateContactWithSupportDateTest@dd05255]" started-at="2026-09-17T13:06:04 IST" name="logoutFromApp" finished-at="2026-09-17T13:06:11 IST" duration-ms="6979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:com.vitiger_crm.contacttest.CreateContactWithSupportDateTest@dd05255]" started-at="2026-09-17T13:06:11 IST" name="browserClosing" finished-at="2026-09-17T13:06:14 IST" duration-ms="2142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="databaseClosure()[pri:0, instance:com.vitiger_crm.contacttest.CreateContactWithSupportDateTest@dd05255]" started-at="2026-09-17T13:06:14 IST" name="databaseClosure" finished-at="2026-09-17T13:06:14 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- databaseClosure -->
+      </class> <!-- com.vitiger_crm.contacttest.CreateContactWithSupportDateTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
