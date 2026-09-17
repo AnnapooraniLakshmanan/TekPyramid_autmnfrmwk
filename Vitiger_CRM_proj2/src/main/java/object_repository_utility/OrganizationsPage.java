@@ -31,4 +31,14 @@ public class OrganizationsPage
 		return plusBtnByAmit;
 	}
 	
+	/*
+	 * this is the second change
+	 */
+	
+	@FindBy(xpath = "//img[@alt='Create Organization']")
+	private WebElement plusBtnByAmit2;
+
+	public WebElement getPlusBtnByAmit2() {
+		return plusBtnByAmit2;
+	}
 }
