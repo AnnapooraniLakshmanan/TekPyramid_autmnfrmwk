@@ -22,4 +22,15 @@ public class OrganizationsPage
 		
 	//did changes poorani
 	}
+	
+	/*
+	 * This change is added to check the git conflit by Amit
+	 */
+	@FindBy(xpath = "//img[@alt='Create Organization']")
+	private WebElement plusBtnByAmit;
+
+	public WebElement getPlusBtnByAmit() {
+		return plusBtnByAmit;
+	}
+	
 }
