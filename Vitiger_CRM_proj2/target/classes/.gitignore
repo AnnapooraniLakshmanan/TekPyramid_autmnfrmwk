@@ -1,1 +1,7 @@
 /object_repository_utility/
+/META-INF/
+/generic_baseClass/
+/generic_dataproviderUtility/
+/generic_fileUtility/
+/generic_listenerUtility/
+/generic_webdriverUtility/
